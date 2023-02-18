@@ -1,0 +1,19 @@
+body{
+    background-color: orange;
+}
+
+#container{
+    display: flex;
+    align-items:baseline
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form > *{
+    width: 50%;
+    margin:1rem;
+
+}
